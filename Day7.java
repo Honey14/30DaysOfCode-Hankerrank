@@ -22,7 +22,7 @@ public class Day7 {
             int arrItem = Integer.parseInt(arrItems[i]);
             int dx = n - i - 1;
             arr[i] = arrItem;
-
+            System.out.print(arrItems[dx] + " ");
         }
 
         scanner.close();
